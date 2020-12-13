@@ -2,7 +2,7 @@
 <!-- new food form -->
 <main>
     <form action="./includes/new.inc.php" method="POST">
-        <h1>ADD NEW FOOD</h1>
+        <h1>ADD NEW EVENT</h1>
         <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" />
@@ -23,7 +23,7 @@
             <label for="category">category</label>
             <input type="text" id="category" name="category" />
         </div>
-        <button type="submit" name="submit_food">add food</button>
+        <button type="submit" name="submit_event">add event</button>
     </form>
 </main>
 <!--  -->

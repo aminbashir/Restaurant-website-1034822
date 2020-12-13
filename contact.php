@@ -3,7 +3,7 @@
 <main>
 <!-- add contact form -->
 <div class="container">
-  <form action="./includes/new.inc.php" method="POST">
+  <form action="home.php" method="POST">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -23,8 +23,11 @@
 
     <input type="submit" value="Submit">
 
+<button onclick="window.location.href='home.php'">back</button>
+
   </form>
 </div>
 </main>
 <!--  -->
 <?php include('footer.php')?>
+

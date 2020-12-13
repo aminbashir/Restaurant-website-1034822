@@ -1,8 +1,8 @@
 /* general styling */
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;    
+	box-sizing: border-box;
   }
   /* general styles */
   body {
@@ -19,7 +19,7 @@
     cursor: pointer;
   }
   button:hover {
-    background: #00b334;
+    background: green;
     color: white;
   }
   /* navbar styling */
@@ -28,21 +28,22 @@
     justify-content: space-around;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align: right;
     font-size: 0.9em;
     background: #000000;
     padding: 20px;
   }
   nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0px 5px;
+    	text-decoration: none;
+    	color: white;
+    	margin: 0px 5px;
   }
   nav div a {
     border-bottom: 1px solid #00b334;
   }
   
   nav i {
-    font-size: 1.2em;
+    font-size: 1.9em;
   }
   nav a:hover {
     color: #00b334;
@@ -144,7 +145,7 @@
   }
   form button {
     width: 100%;
-    background: #00b334 !important;
+    background: blue !important;
     color: white !important;
     padding: 12px 15px;
   }
@@ -186,3 +187,27 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+
+/* about us styling */
+.about-us {
+padding: 30px;
+}
+/*about us section html page */
+.body-about{padding: 10px 60px;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;background-color: lavender;}
+.body-about h6{font-size: 18pt;}
+.body-about .about-us .section{padding: 10px 20px;color: #000000;}
+.body-about .about-us .section .section-header{line-height: 20px;background-color: #dedede;padding: 10px 4px;margin-bottom: 4px;}
+.body-about .about-us .section p{margin-top: 4px;padding-bottom: 10px;padding-left: 8px;}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+table{width: 100%;margin-top: 30px;font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;border-collapse: collapse;}
+table td,table th{border: 3px solid rgb(20, 20, 20);padding: 8px;}
+table td a{padding:0px 0px;text-align: center;}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover {background-color: #ddd;}
+table th{padding-top: 12px;padding-bottom: 12px;text-align: center;background-color: #3e41e0;color: white;border: 3px solid rgb(20, 20, 20)}
